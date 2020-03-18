@@ -11,10 +11,10 @@ public class Primzahlen {
 
         int x = 1000;
 
-        SiebErastothenes(x);
+        SiebEratothenes(x);
     }
 
-    public static void SiebErastothenes(int x) {
+    public static void SiebEratothenes(int x) {
         int[] array = new int[x - 1];
         for (int i = 0; i < x - 1; i++) {
             array[i] = i + 2;

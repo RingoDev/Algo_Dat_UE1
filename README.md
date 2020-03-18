@@ -4,6 +4,6 @@ Algorithms and Datastructures JKU SS2020 Exercise 1
 
 #Euclid's Algorithm
 
-#Erastothenes' Sieve
+#Eratosthenes's Sieve
 
 #Pick's Theorem
