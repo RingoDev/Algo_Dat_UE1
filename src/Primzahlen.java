@@ -11,10 +11,10 @@ public class Primzahlen {
 
         int x = 1000;
 
-        SiebEratothenes(x);
+        SiebEratosthenes(x);
     }
 
-    public static void SiebEratothenes(int x) {
+    public static void SiebEratosthenes(int x) {
         int[] array = new int[x - 1];
         for (int i = 0; i < x - 1; i++) {
             array[i] = i + 2;
@@ -27,7 +27,7 @@ public class Primzahlen {
                         array[l] = 0;//set number to zero(marked)
                     }
                 }
-                System.out.println(temp);
+                System.out.print(temp + ",");
             }
         }
     }
